@@ -1,1 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+    font-size: 1.5em;
+}
+
+.toast-container {
+    --bs-toast-zindex: 1090;
+    position: absolute;
+    z-index: var(--bs-toast-zindex);
+    width: max-content;
+    max-width: 100%;
+    pointer-events: none;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 47%;
+    border: 0;
+    padding: 3% 10%;
+}

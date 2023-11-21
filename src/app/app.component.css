@@ -1,0 +1,19 @@
+
+.m-container{
+    background-color: #716249;
+    width: 70%;
+    margin: 0 auto;
+    padding:40px;
+    height: 94vh;
+}
+.nav-container{
+    background-color: aliceblue;
+    margin-bottom: 10px;
+    border-radius: 30px;
+    padding:3px 0;
+}
+.c-container{
+    background-color: aliceblue;
+    padding:10px;
+    height: 80vh;
+}

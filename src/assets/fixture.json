@@ -1,0 +1,359 @@
+{
+    "get": "fixtures",
+    "parameters": {
+      "league": "140",
+      "season": "2023",
+      "team": "547"
+    },
+    "errors": [
+      
+    ],
+    "results": 38,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "fixture": {
+          "id": 1037960,
+          "referee": "Francisco Hern\u00e1ndez",
+          "timezone": "UTC",
+          "date": "2023-08-12T15:00:00+00:00",
+          "timestamp": 1691852400,
+          "periods": {
+            "first": 1691852400,
+            "second": 1691856000
+          },
+          "venue": {
+            "id": 1491,
+            "name": "Reale Arena",
+            "city": "Donostia-San Sebasti\u00e1n"
+          },
+          "status": {
+            "long": "Match Finished",
+            "short": "FT",
+            "elapsed": 90
+          }
+        },
+        "league": {
+          "id": 140,
+          "name": "La Liga",
+          "country": "Spain",
+          "logo": "https:\/\/media-4.api-sports.io\/football\/leagues\/140.png",
+          "flag": "https:\/\/media-4.api-sports.io\/flags\/es.svg",
+          "season": 2023,
+          "round": "Regular Season - 1"
+        },
+        "teams": {
+          "home": {
+            "id": 548,
+            "name": "Real Sociedad",
+            "logo": "https:\/\/media-4.api-sports.io\/football\/teams\/548.png",
+            "winner": null
+          },
+          "away": {
+            "id": 547,
+            "name": "Girona",
+            "logo": "https:\/\/media-4.api-sports.io\/football\/teams\/547.png",
+            "winner": null
+          }
+        },
+        "goals": {
+          "home": 1,
+          "away": 1
+        },
+        "score": {
+          "halftime": {
+            "home": 1,
+            "away": 0
+          },
+          "fulltime": {
+            "home": 1,
+            "away": 1
+          },
+          "extratime": {
+            "home": null,
+            "away": null
+          },
+          "penalty": {
+            "home": null,
+            "away": null
+          }
+        }
+      },
+      {
+        "fixture": {
+          "id": 1037970,
+          "referee": "Jorge Figueroa",
+          "timezone": "UTC",
+          "date": "2023-08-20T17:00:00+00:00",
+          "timestamp": 1692550800,
+          "periods": {
+            "first": 1692550800,
+            "second": 1692554400
+          },
+          "venue": {
+            "id": 1478,
+            "name": "Estadi Municipal de Montilivi",
+            "city": "Girona"
+          },
+          "status": {
+            "long": "Match Finished",
+            "short": "FT",
+            "elapsed": 90
+          }
+        },
+        "league": {
+          "id": 140,
+          "name": "La Liga",
+          "country": "Spain",
+          "logo": "https:\/\/media-4.api-sports.io\/football\/leagues\/140.png",
+          "flag": "https:\/\/media-4.api-sports.io\/flags\/es.svg",
+          "season": 2023,
+          "round": "Regular Season - 2"
+        },
+        "teams": {
+          "home": {
+            "id": 547,
+            "name": "Girona",
+            "logo": "https:\/\/media-4.api-sports.io\/football\/teams\/547.png",
+            "winner": true
+          },
+          "away": {
+            "id": 546,
+            "name": "Getafe",
+            "logo": "https:\/\/media-4.api-sports.io\/football\/teams\/546.png",
+            "winner": false
+          }
+        },
+        "goals": {
+          "home": 3,
+          "away": 0
+        },
+        "score": {
+          "halftime": {
+            "home": 1,
+            "away": 0
+          },
+          "fulltime": {
+            "home": 3,
+            "away": 0
+          },
+          "extratime": {
+            "home": null,
+            "away": null
+          },
+          "penalty": {
+            "home": null,
+            "away": null
+          }
+        }
+      },
+      {
+        "fixture": {
+          "id": 1037979,
+          "referee": "Jes\u00fas Gil",
+          "timezone": "UTC",
+          "date": "2023-08-26T19:30:00+00:00",
+          "timestamp": 1693078200,
+          "periods": {
+            "first": 1693078200,
+            "second": 1693081800
+          },
+          "venue": {
+            "id": 1494,
+            "name": "Estadio Ram\u00f3n S\u00e1nchez Pizju\u00e1n",
+            "city": "Sevilla"
+          },
+          "status": {
+            "long": "Match Finished",
+            "short": "FT",
+            "elapsed": 90
+          }
+        },
+        "league": {
+          "id": 140,
+          "name": "La Liga",
+          "country": "Spain",
+          "logo": "https:\/\/media-4.api-sports.io\/football\/leagues\/140.png",
+          "flag": "https:\/\/media-4.api-sports.io\/flags\/es.svg",
+          "season": 2023,
+          "round": "Regular Season - 3"
+        },
+        "teams": {
+          "home": {
+            "id": 536,
+            "name": "Sevilla",
+            "logo": "https:\/\/media-4.api-sports.io\/football\/teams\/536.png",
+            "winner": false
+          },
+          "away": {
+            "id": 547,
+            "name": "Girona",
+            "logo": "https:\/\/media-4.api-sports.io\/football\/teams\/547.png",
+            "winner": true
+          }
+        },
+        "goals": {
+          "home": 1,
+          "away": 2
+        },
+        "score": {
+          "halftime": {
+            "home": 1,
+            "away": 1
+          },
+          "fulltime": {
+            "home": 1,
+            "away": 2
+          },
+          "extratime": {
+            "home": null,
+            "away": null
+          },
+          "penalty": {
+            "home": null,
+            "away": null
+          }
+        }
+      },
+      {
+        "fixture": {
+          "id": 1037986,
+          "referee": "Mateo Busquets",
+          "timezone": "UTC",
+          "date": "2023-09-03T12:00:00+00:00",
+          "timestamp": 1693742400,
+          "periods": {
+            "first": 1693742400,
+            "second": 1693746000
+          },
+          "venue": {
+            "id": 1478,
+            "name": "Estadi Municipal de Montilivi",
+            "city": "Girona"
+          },
+          "status": {
+            "long": "Match Finished",
+            "short": "FT",
+            "elapsed": 90
+          }
+        },
+        "league": {
+          "id": 140,
+          "name": "La Liga",
+          "country": "Spain",
+          "logo": "https:\/\/media-4.api-sports.io\/football\/leagues\/140.png",
+          "flag": "https:\/\/media-4.api-sports.io\/flags\/es.svg",
+          "season": 2023,
+          "round": "Regular Season - 4"
+        },
+        "teams": {
+          "home": {
+            "id": 547,
+            "name": "Girona",
+            "logo": "https:\/\/media-4.api-sports.io\/football\/teams\/547.png",
+            "winner": true
+          },
+          "away": {
+            "id": 534,
+            "name": "Las Palmas",
+            "logo": "https:\/\/media-4.api-sports.io\/football\/teams\/534.png",
+            "winner": false
+          }
+        },
+        "goals": {
+          "home": 1,
+          "away": 0
+        },
+        "score": {
+          "halftime": {
+            "home": 0,
+            "away": 0
+          },
+          "fulltime": {
+            "home": 1,
+            "away": 0
+          },
+          "extratime": {
+            "home": null,
+            "away": null
+          },
+          "penalty": {
+            "home": null,
+            "away": null
+          }
+        }
+      },
+      {
+        "fixture": {
+          "id": 1037999,
+          "referee": "Isidro D\u00edaz de Mera",
+          "timezone": "UTC",
+          "date": "2023-09-18T19:00:00+00:00",
+          "timestamp": 1695063600,
+          "periods": {
+            "first": 1695063600,
+            "second": 1695067200
+          },
+          "venue": {
+            "id": 1479,
+            "name": "Estadio Nuevo Los C\u00e1rmenes",
+            "city": "Granada"
+          },
+          "status": {
+            "long": "Match Finished",
+            "short": "FT",
+            "elapsed": 90
+          }
+        },
+        "league": {
+          "id": 140,
+          "name": "La Liga",
+          "country": "Spain",
+          "logo": "https:\/\/media-4.api-sports.io\/football\/leagues\/140.png",
+          "flag": "https:\/\/media-4.api-sports.io\/flags\/es.svg",
+          "season": 2023,
+          "round": "Regular Season - 5"
+        },
+        "teams": {
+          "home": {
+            "id": 715,
+            "name": "Granada CF",
+            "logo": "https:\/\/media-4.api-sports.io\/football\/teams\/715.png",
+            "winner": false
+          },
+          "away": {
+            "id": 547,
+            "name": "Girona",
+            "logo": "https:\/\/media-4.api-sports.io\/football\/teams\/547.png",
+            "winner": true
+          }
+        },
+        "goals": {
+          "home": 2,
+          "away": 4
+        },
+        "score": {
+          "halftime": {
+            "home": 0,
+            "away": 3
+          },
+          "fulltime": {
+            "home": 2,
+            "away": 4
+          },
+          "extratime": {
+            "home": null,
+            "away": null
+          },
+          "penalty": {
+            "home": null,
+            "away": null
+          }
+        }
+      }   
+      
+    ]
+  }

@@ -1,0 +1,10 @@
+<nav *ngIf="showMenu">
+  <ul>
+    <li *ngFor="let navItem of navItems; let i = index" [ngClass]="{ 'active': activeIndex === i }">
+      <a [routerLink]="['/standing/', navItem.leagueId]" routerLinkActive="active" (click)="setActiveIndex(i)"
+        [routerLinkActiveOptions]="{exact: true}">
+        {{ navItem.label }}
+      </a>
+    </li>
+  </ul>
+</nav>

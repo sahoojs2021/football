@@ -1,0 +1,8 @@
+td{
+    text-align: center;
+}
+.tbl-scroll{
+    overflow-y: scroll;
+    height: 100%;
+    white-space:nowrap;
+}

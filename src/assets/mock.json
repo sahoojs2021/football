@@ -1,0 +1,121 @@
+{
+    "get": "standings",
+    "parameters": {
+      "league": "140",
+      "season": "2023"
+    },
+    "errors": [
+      
+    ],
+    "results": 1,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "league": {
+          "id": 140,
+          "name": "La Liga",
+          "country": "Spain",
+          "logo": "https:\/\/media-4.api-sports.io\/football\/leagues\/140.png",
+          "flag": "https:\/\/media-4.api-sports.io\/flags\/es.svg",
+          "season": 2023,
+          "standings": [
+            [
+              {
+                "rank": 1,
+                "team": {
+                  "id": 547,
+                  "name": "Girona",
+                  "logo": "https:\/\/media-4.api-sports.io\/football\/teams\/547.png"
+                },
+                "points": 34,
+                "goalsDiff": 15,
+                "group": "Primera Divisi\u00f3n",
+                "form": "WWWWW",
+                "status": "same",
+                "description": "Promotion - Champions League (Group Stage: )",
+                "all": {
+                  "played": 13,
+                  "win": 11,
+                  "draw": 1,
+                  "lose": 1,
+                  "goals": {
+                    "for": 31,
+                    "against": 16
+                  }
+                },
+                "home": {
+                  "played": 6,
+                  "win": 5,
+                  "draw": 0,
+                  "lose": 1,
+                  "goals": {
+                    "for": 15,
+                    "against": 8
+                  }
+                },
+                "away": {
+                  "played": 7,
+                  "win": 6,
+                  "draw": 1,
+                  "lose": 0,
+                  "goals": {
+                    "for": 16,
+                    "against": 8
+                  }
+                },
+                "update": "2023-11-15T00:00:00+00:00"
+              },
+              {
+                "rank": 2,
+                "team": {
+                  "id": 541,
+                  "name": "Real Madrid",
+                  "logo": "https:\/\/media-4.api-sports.io\/football\/teams\/541.png"
+                },
+                "points": 32,
+                "goalsDiff": 19,
+                "group": "Primera Divisi\u00f3n",
+                "form": "WDWDW",
+                "status": "same",
+                "description": "Promotion - Champions League (Group Stage: )",
+                "all": {
+                  "played": 13,
+                  "win": 10,
+                  "draw": 2,
+                  "lose": 1,
+                  "goals": {
+                    "for": 28,
+                    "against": 9
+                  }
+                },
+                "home": {
+                  "played": 6,
+                  "win": 5,
+                  "draw": 1,
+                  "lose": 0,
+                  "goals": {
+                    "for": 15,
+                    "against": 3
+                  }
+                },
+                "away": {
+                  "played": 7,
+                  "win": 5,
+                  "draw": 1,
+                  "lose": 1,
+                  "goals": {
+                    "for": 13,
+                    "against": 6
+                  }
+                },
+                "update": "2023-11-15T00:00:00+00:00"
+              }            
+            ]
+          ]
+        }
+      }
+    ]
+  }

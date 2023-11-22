@@ -49,9 +49,19 @@ export class FixtureService{
      * @auther
      * @description: Sort the fixtures array based on timestamp in descending order. Get the latest 10 fixtures
      **/
-    public sortFixtureData(fixturesData: Array<Fixture>): Array<Fixture>{        
-        const sortedFixtures = fixturesData.sort((a, b) => b.fixture.timestamp - a.fixture.timestamp);
-        return sortedFixtures.slice(0, 10);
+    public sortFixtureData(fixturesData: Array<Fixture>): Array<Fixture>{   
+        const filteredFixtures = fixturesData.filter(fixture => fixture.fixture.status.short === 'FT');
+
+        const sortedFixtures = filteredFixtures.sort((a, b) => {
+        if (a.fixture.id < b.fixture.id) {
+            return 1; 
+        } else if (a.fixture.id > b.fixture.id) {
+            return -1;
+        }
+        return 0;
+        });
+
+        return  sortedFixtures.slice(0, 10);
     }
 
 }

@@ -28,10 +28,11 @@ export class FootballService {
      **/
     public getFootballStandings(league:number, season:number):Observable<StandingsDataDto> {  
         let apiUrl= `${this.baseUrl}/standings?league=${league}&season=${season}`;
-        return this.http.get<StandingsDataDto>(apiUrl); 
+        //return this.http.get<StandingsDataDto>(apiUrl); 
 
         // for testing only
-        // return this.http.get<StandingsDataDto>('assets/mock.json');
+        let mockPath= `assets/mocks/standing_${league}.json`;
+        return this.http.get<StandingsDataDto>(mockPath);
     }
 
     /**
